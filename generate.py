@@ -10,9 +10,10 @@ PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 # configuration
 #
 
+OUTPUT_DIR = os.path.abspath(os.path.join(PROJECT_ROOT, 'www'))
+
 from conf import *
 
-OUTPUT_DIR = os.path.abspath(os.path.join(PROJECT_ROOT, 'www'))
 if not os.path.exists(OUTPUT_DIR):
     os.mkdir(OUTPUT_DIR)
 
