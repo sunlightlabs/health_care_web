@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="left-column">
+		<p>Sunlight Health helps you make more informed health care choices by putting trusted information from multiple sources at your fingertips. Use Sunlight Health to learn about hospitals, nursing homes, dialysis clinics, health care suppliers and prescription drugs.</p>
+		<p>Sunlight Health lets you learn about options in your area, and gives you information you can use in consultation with your physician or health care provider.</p>
+		<div class="getit main">
+			<div class="product-badge">
+				A product of Sunlight Foundation
+			</div>
+			<a href="{{ ios_url }}" class="app-store">Available on the App Store</a>
+			<a href="{{ android_url }}" class="android-market">Android Market</a>
+		</div>
+	</div>
+	<div class="right-column">
+		<div id="iphone">
+			<div class="scroll">
+				<img src="images/img-iphone-facilities.jpg">
+			</div>
+		</div>
+		<div id="switcher">
+			<a id="switchButton1" class="active" href="./images/img-iphone-facilities.jpg">Page 1</a>
+			<a id="switchButton2" href="./images/img-iphone-facility_list.jpg">Page 2</a>
+			<a id="switchButton3" href="./images/img-iphone-facility_detail.jpg">Page 3</a>
+			<a id="switchButton4" href="./images/img-iphone-facility_data.jpg">Page 4</a>
+		</div>
+	</div>
+{% endblock %}

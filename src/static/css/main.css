@@ -1,0 +1,385 @@
+/*  HTML5 ✰ Boilerplate  */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, 
+menu, nav, section, summary, time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display:block;
+}
+nav ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+table { border-collapse:collapse; border-spacing:0; }
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+input, select { vertical-align:middle; }
+
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+body, select, input, textarea {   color: #444; }
+h1,h2,h3,h4,h5,h6 { font-weight: bold; }
+html { overflow-y: scroll; }
+
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { color: #007592; }
+a:hover { color: #004b5e; }
+
+ul, ol { margin-left: 1.8em; }
+ol { list-style-type: decimal; }
+
+nav ul, nav li { margin: 0; } 
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td, td img { vertical-align: top; } 
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+pre {  padding: 15px;  white-space: pre;  white-space: pre-wrap;  white-space: pre-line;  word-wrap: break-word; }
+textarea { overflow: auto; } 
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px;  -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red;  box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, 
+.no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #eae16d; color:; text-shadow: none; }
+::selection { background:#eae16d; color:; text-shadow: none; } 
+a:link { -webkit-tap-highlight-color: #eae16d; } 
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; } 
+.visuallyhidden { position: absolute !important; clip: rect(1px 1px 1px 1px);  clip: rect(1px, 1px, 1px, 1px); }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after {  content: "\0020"; display: block; height: 0; visibility: hidden;	 } 
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/*  HTML5 ✰ Boilerplate  */
+body{
+	background:url('../images/bg-body.jpg') center top repeat-x;
+	color: #5e5e5e;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.splash-panel{
+	background:url('../images/bg_splash.jpg') center top no-repeat;
+	height: 408px;
+	width: 960px;
+}
+.left-column{
+	float: left;
+	width: 480px;
+	margin: 0 60px 40px 0;
+}
+.left-column.secondary{
+	width: 608px;
+}
+
+.right-column{
+	float: left;
+	width: 420px;
+	margin-bottom: 40px;
+}
+.right-column.secondary{
+	width: 292px;
+}
+h1{
+	background: url('../images/sunlight_health_logo.png') center top no-repeat;
+	text-indent: -9999em;
+	width: 294px;
+	height: 211px;
+	display: block;
+	margin-left: 100px;
+	cursor: pointer;
+}
+.tag-line{
+	background: url('../images/tag-line.png') top center no-repeat;
+	width: 664px ;
+	height: 115px ;
+	text-indent: -9999em;
+	margin-top: 30px;
+}
+
+p{
+	font-size: 120%;
+	line-height: 1.75;
+	margin-top: 20px;
+}
+
+
+
+
+.getit.main{
+	width: 600px;
+	height: 100px;
+	margin-top: 70px;
+	background: url('../images/bg_getit.jpg') center center no-repeat ;
+	padding: 20px 0;
+}
+
+.main .product-badge{
+	width: 126px;
+	height: 125px;
+	margin: -13px 0 0 -50px;
+	text-indent: -9999em;
+	background: url('../images/product-badge.png') center center no-repeat;
+	float: left;
+}
+
+.main .android-market{
+	background: url('../images/button-android-market.png') left top no-repeat ;
+	text-indent: -9999em;
+	width: 181px;
+	height: 64px;
+	margin: 18px 0 0 0;
+	-webkit-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	-moz-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	box-shadow: 0px 0px 2px 2px #bdbdbd;
+	float: left;
+
+}
+	
+.main .app-store{
+	background: url('../images/button-app-store.png') left top no-repeat ;
+	text-indent: -9999em;
+	width: 181px ;
+	height: 64px ;
+	margin: 18px 50px 0 50px;
+	-webkit-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	-moz-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	box-shadow: 0px 0px 2px 2px #bdbdbd;
+	float: left;
+
+}
+.main .android-market:hover{
+	background: url('../images/button-android-market.png') right top no-repeat ;
+
+}
+	
+.main .app-store:hover{
+	background: url('../images/button-app-store.png') right top no-repeat ;
+}
+
+footer{
+	clear: both;
+	height: 400px;
+	background: #f0efef;
+	-webkit-box-shadow: inset 0px 5px 10px 0px #bdbdbd;
+	-moz-box-shadow: inset 0px 5px 10px 0px #bdbdbd;
+	box-shadow: inset 0px 5px 10px 0px #bdbdbd;
+	min-width: 960px;
+}
+
+.sunlightfoundation{
+	background: url('../images/sunlightfoundatio_logo.png') left top no-repeat ;
+	width: 214px;
+	height: 47px;
+	text-indent: -9999em;
+	border-right: 1px solid #d4d4d4;
+	float: left;
+	padding-right: 40px;
+	margin-top: 15px;
+}
+.sunlightfoundation:hover{
+	background: url('../images/sunlightfoundatio_logo.png') left bottom no-repeat ;
+}
+
+.knightfoundation{
+	background: url('../images/knightfoundation_logo.png') right top no-repeat ;
+	width: 156px;
+	height: 47px;
+	text-indent: -9999em;
+	border-left: 1px solid #ffffff;
+	float: left;
+	padding-left: 40px;
+	margin-top: 15px;
+}
+.knightfoundation:hover{
+	background: url('../images/knightfoundation_logo.png') right bottom no-repeat ;
+}
+
+.methodology{
+	width: 228px;
+	height: 65px;
+	background: url('../images/button_methodology.png') left top no-repeat ;
+	text-decoration: none;
+	float: right;
+	
+}
+
+.disclaimer{
+	width: 200px;
+	height: 65px;
+	background: url('../images/button_disclaimer.png') left top no-repeat ;
+	text-decoration: none;
+	float: right;
+	
+}
+
+h3{
+	text-transform: uppercase;
+	color: white;
+	font-size: 140%;
+	padding-top: 27px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+footer p{
+	clear: both;
+	text-align: center;
+	width: 750px;
+	font-size: 90%;
+	margin: 0 auto;
+	padding-top: 45px;
+	color: #686868;
+}
+
+.getit.secondary{
+	width: 283px;
+	height: 280px;
+	margin-top: 25px;
+	background:url('../images/bg_getit_secondary.png') center center no-repeat ;
+	padding: 20px 0;
+}
+
+.getit.secondary .product-badge{
+	width: 126px;
+	height: 125px;
+	text-indent: -9999em;
+	background: url('../images/product-badge.png');
+	display: block;
+	margin: -45px auto 0 auto;
+	
+}
+
+.getit.secondary .android-market{
+	background: url('../images/button-android-market.png') left top no-repeat ;
+	text-indent: -9999em;
+	width: 181px ;
+	height: 64px ;
+	-webkit-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	-moz-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	box-shadow: 0px 0px 2px 2px #bdbdbd;
+	display: block;
+	margin: 25px auto 0 auto;
+	
+}
+	
+.getit.secondary .app-store{
+	background: url('../images/button-app-store.png') left top no-repeat ;
+	text-indent: -9999em;
+	width: 181px ;
+	height: 64px ;
+	-webkit-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	-moz-box-shadow: 0px 0px 2px 2px #bdbdbd;
+	box-shadow: 0px 0px 2px 2px #bdbdbd;
+	display: block;
+	margin: 25px auto 0 auto;	
+}
+.getit.secondary .android-market:hover{
+	background: url('../images/button-android-market.png') right top no-repeat ;
+
+}
+	
+.getit.secondary .app-store:hover{
+	background: url('../images/button-app-store.png') right top no-repeat ;
+}
+
+h2{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 200%;
+	font-style: italic;
+	color: #d4cb50;
+}
+
+h4{
+	margin-top: 30px;
+	font-size: 145%;
+}
+h5{
+	margin-top: 30px;
+	font-size: 108%;
+	text-transform: uppercase;
+}
+
+div#switcher a {
+	background: url('../images/image-switch-button.png') top left no-repeat;
+	width: 24px;
+	height: 24px;
+    border: none;
+	text-indent: -9999em;
+	display: block;
+	float: left;
+	margin: 3px;
+}
+
+div#switcher a.active {
+	background: url('../images/image-switch-button.png') top right no-repeat;
+}
+
+div#switcher a:hover {
+	background: url('../images/image-switch-button.png') top right no-repeat;
+}
+
+div#iphone {
+	background: url('../images/phones.png') top left no-repeat;
+	width: 412px;
+	height: 500px;
+	margin-top: -203px;
+	padding-top: 66px;
+}
+
+div.scroll {
+	width: 240px;
+	height: 400px;
+	margin-left: 153px;
+}
+
+div#switcher {
+	margin-left: 213px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

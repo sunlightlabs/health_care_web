@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="Sunlight, Sunlight Foundation, Health, Health Care, iPhone, Android, App, Application, Phone, Medical, Doctor, Medical Supplies, Hospitals, Nursing Homes, Home Health, Dialysis, Drugs, Pharmaceuticals">
+    <meta name="description" content="Sunlight Health helps you make more informed health care choices by putting trusted information from multiple sources at your fingertips.">
+
+	<meta property="og:site_name" content="Sunlight Foundation">
+	<meta property="og:title" content="Sunlight Health">
+	<meta property="og:description" content="Sunlight Health helps you make more informed health care choices by putting trusted information from multiple sources at your fingertips.">
+	<meta property="og:type" content="product">
+	<meta property="og:image" content="images/">
+	<meta property="og:url" content="http://sunlightfoundation.com/health/">
+	<meta property="fb:admins" content="7812952">
+
+	<title>{% block title %}Sunlight Health{% endblock %}</title>
+
+	<link rel="stylesheet" href="css/main.css" media="screen">
+
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="splash-panel">
+			<a href="index.html" title="index">
+				<h1>Sunlight Health</h1>
+			</a>
+			<div class="tag-line">
+				Learn about health care near you. Facilities, Medical Supplies, Drugs
+			</div>
+		</div>
+		{% block content %}{% endblock %}
+	</div>
+	<footer>
+		<div class="wrapper">
+			<a href="http://www.sunlightfoundation.com" class="sunlightfoundation">Sunlight Foundation</a>
+			<a href="http://www.knightfoundation.org/" class="knightfoundation">Knight Foundation - informed, engaged communities</a>
+			<a href="methodology.html" title="methodology" class="methodology">
+				<h3>Methodology</h3>
+			</a>
+			<a href="disclaimer.html" title="disclaimer" class="disclaimer">
+				<h3>Disclaimer</h3>
+			</a>
+			<p>Founded in 2006, the Sunlight Foundation is a non-partisan non-profit that uses cutting-edge technology and ideas to make government transparent and accountable. Visit <a href="http://www.sunlightfoundation.com">SunlightFoundation.com</a> to learn more.</p>
+		</div>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script src="js/sunlighthealth.js"></script>
+	<script> 
+		var _gaq = [['_setAccount', 'UA-1265484-1'], ['_trackPageview']];
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+			g.async = true;
+			g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g, s);
+		})(document, 'script');
+	</script>
+</body>
+</html>
