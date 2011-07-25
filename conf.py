@@ -9,7 +9,7 @@ PAGES = (
 #
 
 CONTEXT = {
-    'ios_url': 'http://itunes.com',
+    'ios_url': 'http://itunes.apple.com/us/app/sunlight-health/id447887452?mt=8&ls=1',
     'android_url': 'https://market.android.com/details?id=com.sunlightlabs.mobile.health',
 }
 

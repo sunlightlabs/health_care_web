@@ -93,7 +93,7 @@ body{
 	margin: 0 auto;
 }
 .splash-panel{
-	background:url('../images/bg_splash.jpg') center top no-repeat;
+	background:url('../images/bg_splash.png') center top no-repeat;
 	height: 408px;
 	width: 960px;
 }
